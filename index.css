@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.top-banner {
+  background-color: #0066eb;
+  font-family: "Roboto", serif;
+  font-weight: 600;
+  color: white;
+  display: flex;
+  padding: 5px 0 5px 0;
+  justify-content: space-around;
+}
+
+.left-side-top-banner {
+  display: flex;
+  gap: 5%;
+  width: 35%;
+}
+
+.right-side-top-banner {
+  display: flex;
+  width: 5%;
+  gap: 5%;
+  justify-content: space-evenly;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+  font-family: "Roboto", serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  gap: 3%;
+}
